@@ -28,7 +28,7 @@
 
 /* Begin PBXFileReference section */
 		E5759A9C2455E40000F12A9D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E5D0A5D92444AC6B0086C113 /* NoseDown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoseDown.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5D0A5D92444AC6B0086C113 /* Keep It 100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keep It 100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5D0A5DC2444AC6B0086C113 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		E5D0A5E12444AC6B0086C113 /* NoseDown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoseDown.xcdatamodel; sourceTree = "<group>"; };
 		E5D0A5E52444AC710086C113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		E5D0A5DA2444AC6B0086C113 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5D0A5D92444AC6B0086C113 /* NoseDown.app */,
+				E5D0A5D92444AC6B0086C113 /* Keep It 100.app */,
 				E5D0A5F22444AC710086C113 /* NoseDownTests.xctest */,
 			);
 			name = Products;
@@ -124,7 +124,7 @@
 			);
 			name = NoseDown;
 			productName = NoseDown;
-			productReference = E5D0A5D92444AC6B0086C113 /* NoseDown.app */;
+			productReference = E5D0A5D92444AC6B0086C113 /* Keep It 100.app */;
 			productType = "com.apple.product-type.application";
 		};
 		E5D0A5F12444AC710086C113 /* NoseDownTests */ = {
@@ -372,7 +372,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDown;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Keep It 100";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -392,7 +392,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDown;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Keep It 100";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
