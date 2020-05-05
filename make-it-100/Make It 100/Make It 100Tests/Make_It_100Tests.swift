@@ -1,15 +1,15 @@
 //
-//  NoseDownTests.swift
-//  NoseDownTests
+//  Make_It_100Tests.swift
+//  Make It 100Tests
 //
-//  Created by Raul (Private) on 13.04.20.
+//  Created by Raul (Private) on 05.05.20.
 //  Copyright © 2020 Raul Sulaimanov. All rights reserved.
 //
 
 import XCTest
-@testable import NoseDown
+@testable import Make_It_100
 
-class NoseDownTests: XCTestCase {
+class Make_It_100Tests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

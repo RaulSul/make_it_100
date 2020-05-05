@@ -1,6 +1,6 @@
 //
 //  App.swift
-//  NoseDown
+//  Keep It 100
 //
 //  Created by Raul (Private) on 13.04.20.
 //  Copyright © 2020 Raul Sulaimanov. All rights reserved.

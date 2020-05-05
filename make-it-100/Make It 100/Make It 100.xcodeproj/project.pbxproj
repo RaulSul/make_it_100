@@ -7,48 +7,50 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E5759A9D2455E40000F12A9D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5759A9C2455E40000F12A9D /* Extensions.swift */; };
-		E5D0A5DD2444AC6B0086C113 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D0A5DC2444AC6B0086C113 /* App.swift */; };
-		E5D0A5E22444AC6B0086C113 /* NoseDown.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E5D0A5E02444AC6B0086C113 /* NoseDown.xcdatamodeld */; };
-		E5D0A5E62444AC710086C113 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D0A5E52444AC710086C113 /* Assets.xcassets */; };
-		E5D0A5E92444AC710086C113 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5D0A5E82444AC710086C113 /* Preview Assets.xcassets */; };
-		E5D0A5EC2444AC710086C113 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5D0A5EA2444AC710086C113 /* LaunchScreen.storyboard */; };
-		E5D0A5F72444AC710086C113 /* NoseDownTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D0A5F62444AC710086C113 /* NoseDownTests.swift */; };
+		E55B9F28246148F70082DA95 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B9F27246148F70082DA95 /* App.swift */; };
+		E55B9F2C246148F70082DA95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B9F2B246148F70082DA95 /* ViewController.swift */; };
+		E55B9F2F246148F70082DA95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55B9F2D246148F70082DA95 /* Main.storyboard */; };
+		E55B9F32246148F70082DA95 /* Make_It_100.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E55B9F30246148F70082DA95 /* Make_It_100.xcdatamodeld */; };
+		E55B9F34246148FE0082DA95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E55B9F33246148FE0082DA95 /* Assets.xcassets */; };
+		E55B9F37246148FE0082DA95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E55B9F35246148FE0082DA95 /* LaunchScreen.storyboard */; };
+		E55B9F42246148FF0082DA95 /* Make_It_100Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B9F41246148FF0082DA95 /* Make_It_100Tests.swift */; };
+		E55B9F4D246149B20082DA95 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E55B9F4C246149B20082DA95 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		E5D0A5F32444AC710086C113 /* PBXContainerItemProxy */ = {
+		E55B9F3E246148FF0082DA95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = E5D0A5D12444AC6B0086C113 /* Project object */;
+			containerPortal = E55B9F1C246148F70082DA95 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = E5D0A5D82444AC6B0086C113;
-			remoteInfo = NoseDown;
+			remoteGlobalIDString = E55B9F23246148F70082DA95;
+			remoteInfo = "Make It 100";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E5759A9C2455E40000F12A9D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		E5D0A5D92444AC6B0086C113 /* Keep It 100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Keep It 100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D0A5DC2444AC6B0086C113 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
-		E5D0A5E12444AC6B0086C113 /* NoseDown.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NoseDown.xcdatamodel; sourceTree = "<group>"; };
-		E5D0A5E52444AC710086C113 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		E5D0A5E82444AC710086C113 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		E5D0A5EB2444AC710086C113 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		E5D0A5ED2444AC710086C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5D0A5F22444AC710086C113 /* NoseDownTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoseDownTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D0A5F62444AC710086C113 /* NoseDownTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoseDownTests.swift; sourceTree = "<group>"; };
-		E5D0A5F82444AC710086C113 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55B9F24246148F70082DA95 /* Make It 100.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Make It 100.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55B9F27246148F70082DA95 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		E55B9F2B246148F70082DA95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E55B9F2E246148F70082DA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E55B9F31246148F70082DA95 /* Make_It_100.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Make_It_100.xcdatamodel; sourceTree = "<group>"; };
+		E55B9F33246148FE0082DA95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E55B9F36246148FE0082DA95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E55B9F38246148FE0082DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55B9F3D246148FF0082DA95 /* Make It 100Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Make It 100Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55B9F41246148FF0082DA95 /* Make_It_100Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Make_It_100Tests.swift; sourceTree = "<group>"; };
+		E55B9F43246148FF0082DA95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E55B9F4C246149B20082DA95 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		E5D0A5D62444AC6B0086C113 /* Frameworks */ = {
+		E55B9F21246148F70082DA95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D0A5EF2444AC710086C113 /* Frameworks */ = {
+		E55B9F3A246148FF0082DA95 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,113 +60,106 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		E5D0A5D02444AC6B0086C113 = {
+		E55B9F1B246148F70082DA95 = {
 			isa = PBXGroup;
 			children = (
-				E5D0A5DB2444AC6B0086C113 /* NoseDown */,
-				E5D0A5F52444AC710086C113 /* NoseDownTests */,
-				E5D0A5DA2444AC6B0086C113 /* Products */,
+				E55B9F26246148F70082DA95 /* Make It 100 */,
+				E55B9F40246148FF0082DA95 /* Make It 100Tests */,
+				E55B9F25246148F70082DA95 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		E5D0A5DA2444AC6B0086C113 /* Products */ = {
+		E55B9F25246148F70082DA95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E5D0A5D92444AC6B0086C113 /* Keep It 100.app */,
-				E5D0A5F22444AC710086C113 /* NoseDownTests.xctest */,
+				E55B9F24246148F70082DA95 /* Make It 100.app */,
+				E55B9F3D246148FF0082DA95 /* Make It 100Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E5D0A5DB2444AC6B0086C113 /* NoseDown */ = {
+		E55B9F26246148F70082DA95 /* Make It 100 */ = {
 			isa = PBXGroup;
 			children = (
-				E5D0A5DC2444AC6B0086C113 /* App.swift */,
-				E5759A9C2455E40000F12A9D /* Extensions.swift */,
-				E5D0A5E52444AC710086C113 /* Assets.xcassets */,
-				E5D0A5EA2444AC710086C113 /* LaunchScreen.storyboard */,
-				E5D0A5ED2444AC710086C113 /* Info.plist */,
-				E5D0A5E02444AC6B0086C113 /* NoseDown.xcdatamodeld */,
-				E5D0A5E72444AC710086C113 /* Preview Content */,
+				E55B9F27246148F70082DA95 /* App.swift */,
+				E55B9F4C246149B20082DA95 /* Extensions.swift */,
+				E55B9F2B246148F70082DA95 /* ViewController.swift */,
+				E55B9F2D246148F70082DA95 /* Main.storyboard */,
+				E55B9F33246148FE0082DA95 /* Assets.xcassets */,
+				E55B9F35246148FE0082DA95 /* LaunchScreen.storyboard */,
+				E55B9F38246148FE0082DA95 /* Info.plist */,
+				E55B9F30246148F70082DA95 /* Make_It_100.xcdatamodeld */,
 			);
-			path = NoseDown;
+			path = "Make It 100";
 			sourceTree = "<group>";
 		};
-		E5D0A5E72444AC710086C113 /* Preview Content */ = {
+		E55B9F40246148FF0082DA95 /* Make It 100Tests */ = {
 			isa = PBXGroup;
 			children = (
-				E5D0A5E82444AC710086C113 /* Preview Assets.xcassets */,
+				E55B9F41246148FF0082DA95 /* Make_It_100Tests.swift */,
+				E55B9F43246148FF0082DA95 /* Info.plist */,
 			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		E5D0A5F52444AC710086C113 /* NoseDownTests */ = {
-			isa = PBXGroup;
-			children = (
-				E5D0A5F62444AC710086C113 /* NoseDownTests.swift */,
-				E5D0A5F82444AC710086C113 /* Info.plist */,
-			);
-			path = NoseDownTests;
+			path = "Make It 100Tests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E5D0A5D82444AC6B0086C113 /* NoseDown */ = {
+		E55B9F23246148F70082DA95 /* Make It 100 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5D0A5FB2444AC710086C113 /* Build configuration list for PBXNativeTarget "NoseDown" */;
+			buildConfigurationList = E55B9F46246148FF0082DA95 /* Build configuration list for PBXNativeTarget "Make It 100" */;
 			buildPhases = (
-				E5D0A5D52444AC6B0086C113 /* Sources */,
-				E5D0A5D62444AC6B0086C113 /* Frameworks */,
-				E5D0A5D72444AC6B0086C113 /* Resources */,
+				E55B9F20246148F70082DA95 /* Sources */,
+				E55B9F21246148F70082DA95 /* Frameworks */,
+				E55B9F22246148F70082DA95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = NoseDown;
-			productName = NoseDown;
-			productReference = E5D0A5D92444AC6B0086C113 /* Keep It 100.app */;
+			name = "Make It 100";
+			productName = "Make It 100";
+			productReference = E55B9F24246148F70082DA95 /* Make It 100.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E5D0A5F12444AC710086C113 /* NoseDownTests */ = {
+		E55B9F3C246148FF0082DA95 /* Make It 100Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E5D0A5FE2444AC710086C113 /* Build configuration list for PBXNativeTarget "NoseDownTests" */;
+			buildConfigurationList = E55B9F49246148FF0082DA95 /* Build configuration list for PBXNativeTarget "Make It 100Tests" */;
 			buildPhases = (
-				E5D0A5EE2444AC710086C113 /* Sources */,
-				E5D0A5EF2444AC710086C113 /* Frameworks */,
-				E5D0A5F02444AC710086C113 /* Resources */,
+				E55B9F39246148FF0082DA95 /* Sources */,
+				E55B9F3A246148FF0082DA95 /* Frameworks */,
+				E55B9F3B246148FF0082DA95 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E5D0A5F42444AC710086C113 /* PBXTargetDependency */,
+				E55B9F3F246148FF0082DA95 /* PBXTargetDependency */,
 			);
-			name = NoseDownTests;
-			productName = NoseDownTests;
-			productReference = E5D0A5F22444AC710086C113 /* NoseDownTests.xctest */;
+			name = "Make It 100Tests";
+			productName = "Make It 100Tests";
+			productReference = E55B9F3D246148FF0082DA95 /* Make It 100Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		E5D0A5D12444AC6B0086C113 /* Project object */ = {
+		E55B9F1C246148F70082DA95 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1140;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Raul Sulaimanov";
 				TargetAttributes = {
-					E5D0A5D82444AC6B0086C113 = {
+					E55B9F23246148F70082DA95 = {
 						CreatedOnToolsVersion = 11.4;
 					};
-					E5D0A5F12444AC710086C113 = {
+					E55B9F3C246148FF0082DA95 = {
 						CreatedOnToolsVersion = 11.4;
-						TestTargetID = E5D0A5D82444AC6B0086C113;
+						TestTargetID = E55B9F23246148F70082DA95;
 					};
 				};
 			};
-			buildConfigurationList = E5D0A5D42444AC6B0086C113 /* Build configuration list for PBXProject "NoseDown" */;
+			buildConfigurationList = E55B9F1F246148F70082DA95 /* Build configuration list for PBXProject "Make It 100" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,29 +167,29 @@
 				en,
 				Base,
 			);
-			mainGroup = E5D0A5D02444AC6B0086C113;
-			productRefGroup = E5D0A5DA2444AC6B0086C113 /* Products */;
+			mainGroup = E55B9F1B246148F70082DA95;
+			productRefGroup = E55B9F25246148F70082DA95 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E5D0A5D82444AC6B0086C113 /* NoseDown */,
-				E5D0A5F12444AC710086C113 /* NoseDownTests */,
+				E55B9F23246148F70082DA95 /* Make It 100 */,
+				E55B9F3C246148FF0082DA95 /* Make It 100Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		E5D0A5D72444AC6B0086C113 /* Resources */ = {
+		E55B9F22246148F70082DA95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D0A5EC2444AC710086C113 /* LaunchScreen.storyboard in Resources */,
-				E5D0A5E92444AC710086C113 /* Preview Assets.xcassets in Resources */,
-				E5D0A5E62444AC710086C113 /* Assets.xcassets in Resources */,
+				E55B9F37246148FE0082DA95 /* LaunchScreen.storyboard in Resources */,
+				E55B9F34246148FE0082DA95 /* Assets.xcassets in Resources */,
+				E55B9F2F246148F70082DA95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D0A5F02444AC710086C113 /* Resources */ = {
+		E55B9F3B246148FF0082DA95 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,39 +199,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		E5D0A5D52444AC6B0086C113 /* Sources */ = {
+		E55B9F20246148F70082DA95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D0A5DD2444AC6B0086C113 /* App.swift in Sources */,
-				E5759A9D2455E40000F12A9D /* Extensions.swift in Sources */,
-				E5D0A5E22444AC6B0086C113 /* NoseDown.xcdatamodeld in Sources */,
+				E55B9F2C246148F70082DA95 /* ViewController.swift in Sources */,
+				E55B9F28246148F70082DA95 /* App.swift in Sources */,
+				E55B9F32246148F70082DA95 /* Make_It_100.xcdatamodeld in Sources */,
+				E55B9F4D246149B20082DA95 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E5D0A5EE2444AC710086C113 /* Sources */ = {
+		E55B9F39246148FF0082DA95 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E5D0A5F72444AC710086C113 /* NoseDownTests.swift in Sources */,
+				E55B9F42246148FF0082DA95 /* Make_It_100Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		E5D0A5F42444AC710086C113 /* PBXTargetDependency */ = {
+		E55B9F3F246148FF0082DA95 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E5D0A5D82444AC6B0086C113 /* NoseDown */;
-			targetProxy = E5D0A5F32444AC710086C113 /* PBXContainerItemProxy */;
+			target = E55B9F23246148F70082DA95 /* Make It 100 */;
+			targetProxy = E55B9F3E246148FF0082DA95 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		E5D0A5EA2444AC710086C113 /* LaunchScreen.storyboard */ = {
+		E55B9F2D246148F70082DA95 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				E5D0A5EB2444AC710086C113 /* Base */,
+				E55B9F2E246148F70082DA95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E55B9F35246148FE0082DA95 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E55B9F36246148FE0082DA95 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +248,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		E5D0A5F92444AC710086C113 /* Debug */ = {
+		E55B9F44246148FF0082DA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +308,7 @@
 			};
 			name = Debug;
 		};
-		E5D0A5FA2444AC710086C113 /* Release */ = {
+		E55B9F45246148FF0082DA95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,116 +362,112 @@
 			};
 			name = Release;
 		};
-		E5D0A5FC2444AC710086C113 /* Debug */ = {
+		E55B9F47246148FF0082DA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"NoseDown/Preview Content\"";
 				DEVELOPMENT_TEAM = H39V5K2H38;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NoseDown/Info.plist;
+				INFOPLIST_FILE = "Make It 100/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDown;
-				PRODUCT_NAME = "Keep It 100";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaulSulaimanov.Make-It-100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		E5D0A5FD2444AC710086C113 /* Release */ = {
+		E55B9F48246148FF0082DA95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"NoseDown/Preview Content\"";
 				DEVELOPMENT_TEAM = H39V5K2H38;
-				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = NoseDown/Info.plist;
+				INFOPLIST_FILE = "Make It 100/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDown;
-				PRODUCT_NAME = "Keep It 100";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaulSulaimanov.Make-It-100";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		E5D0A5FF2444AC710086C113 /* Debug */ = {
+		E55B9F4A246148FF0082DA95 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H39V5K2H38;
-				INFOPLIST_FILE = NoseDownTests/Info.plist;
+				INFOPLIST_FILE = "Make It 100Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaulSulaimanov.Make-It-100Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoseDown.app/NoseDown";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Make It 100.app/Make It 100";
 			};
 			name = Debug;
 		};
-		E5D0A6002444AC710086C113 /* Release */ = {
+		E55B9F4B246148FF0082DA95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = H39V5K2H38;
-				INFOPLIST_FILE = NoseDownTests/Info.plist;
+				INFOPLIST_FILE = "Make It 100Tests/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.RaulSulaimanov.NoseDownTests;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RaulSulaimanov.Make-It-100Tests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NoseDown.app/NoseDown";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Make It 100.app/Make It 100";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E5D0A5D42444AC6B0086C113 /* Build configuration list for PBXProject "NoseDown" */ = {
+		E55B9F1F246148F70082DA95 /* Build configuration list for PBXProject "Make It 100" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D0A5F92444AC710086C113 /* Debug */,
-				E5D0A5FA2444AC710086C113 /* Release */,
+				E55B9F44246148FF0082DA95 /* Debug */,
+				E55B9F45246148FF0082DA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5D0A5FB2444AC710086C113 /* Build configuration list for PBXNativeTarget "NoseDown" */ = {
+		E55B9F46246148FF0082DA95 /* Build configuration list for PBXNativeTarget "Make It 100" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D0A5FC2444AC710086C113 /* Debug */,
-				E5D0A5FD2444AC710086C113 /* Release */,
+				E55B9F47246148FF0082DA95 /* Debug */,
+				E55B9F48246148FF0082DA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E5D0A5FE2444AC710086C113 /* Build configuration list for PBXNativeTarget "NoseDownTests" */ = {
+		E55B9F49246148FF0082DA95 /* Build configuration list for PBXNativeTarget "Make It 100Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E5D0A5FF2444AC710086C113 /* Debug */,
-				E5D0A6002444AC710086C113 /* Release */,
+				E55B9F4A246148FF0082DA95 /* Debug */,
+				E55B9F4B246148FF0082DA95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -475,17 +475,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		E5D0A5E02444AC6B0086C113 /* NoseDown.xcdatamodeld */ = {
+		E55B9F30246148F70082DA95 /* Make_It_100.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				E5D0A5E12444AC6B0086C113 /* NoseDown.xcdatamodel */,
+				E55B9F31246148F70082DA95 /* Make_It_100.xcdatamodel */,
 			);
-			currentVersion = E5D0A5E12444AC6B0086C113 /* NoseDown.xcdatamodel */;
-			path = NoseDown.xcdatamodeld;
+			currentVersion = E55B9F31246148F70082DA95 /* Make_It_100.xcdatamodel */;
+			path = Make_It_100.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = E5D0A5D12444AC6B0086C113 /* Project object */;
+	rootObject = E55B9F1C246148F70082DA95 /* Project object */;
 }
