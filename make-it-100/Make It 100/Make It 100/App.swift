@@ -1,6 +1,6 @@
 //
 //  App.swift
-//  Keep It 100
+//  Make It 100
 //
 //  Created by Raul (Private) on 13.04.20.
 //  Copyright © 2020 Raul Sulaimanov. All rights reserved.
@@ -33,6 +33,9 @@ import CoreData
         mainVC.view.backgroundColor = UIColor(hue: 0.575, saturation: 0.98, brightness: 0.98, alpha: 1.0)
         pushViewController(mainVC, animated: false)
         self.mainVC = mainVC
+        
+        let pushUpsVC = ChallengeController()
+        self.pushUpsVC = pushUpsVC
         
         let pushUpsButton = button("pushups", #selector(openPushUpsVC))
         mainVC.view.addSubview(pushUpsButton)
