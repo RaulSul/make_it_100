@@ -17,8 +17,8 @@ import CoreData
     // View Controllers:
     var mainVC : UIViewController?
     var settings: UIViewController?
-    var pushUpsVC: UIViewController?
-    var squatsVC: UIViewController?
+    var pushUpsVC: PushUpsVC?
+    var squatsVC: SquatsVC?
     
     // Buttons:
     var horizontalNavigation: HorizontalNavigation?
@@ -43,7 +43,7 @@ import CoreData
         let pushUpsVC = PushUpsVC()
         self.pushUpsVC = pushUpsVC
         
-        let squatsVC = PushUpsVC()
+        let squatsVC = SquatsVC()
         self.squatsVC = squatsVC
         
         let horizontalNavigation = HorizontalNavigation()
