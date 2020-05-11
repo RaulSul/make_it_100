@@ -21,6 +21,7 @@ import CoreData
     var squatsVC: UIViewController?
     
     // Buttons:
+    var horizontalNavigation: HorizontalNavigation?
     var pushUpsButton: UIButton?
     var squatsButton: UIButton?
     var settingsButton: UIButton?
@@ -34,16 +35,22 @@ import CoreData
         pushViewController(mainVC, animated: false)
         self.mainVC = mainVC
         
-        let pushUpsVC = ChallengeController()
+        let gradientLayer = CAGradientLayer()
+        gradientLayer.frame = view.bounds
+        gradientLayer.colors = [UIColor(red: 0.35, green: 0.82, blue: 0.01, alpha: 1.00).cgColor, UIColor(red: 0.95, green: 0.96, blue: 0.13, alpha: 1.00).cgColor]
+        mainVC.view.layer.insertSublayer(gradientLayer, at: 0)
+        
+        let pushUpsVC = PushUpsVC()
         self.pushUpsVC = pushUpsVC
         
-        let pushUpsButton = button("pushups", #selector(openPushUpsVC))
-        mainVC.view.addSubview(pushUpsButton)
-        self.pushUpsButton = pushUpsButton
+        let squatsVC = PushUpsVC()
+        self.squatsVC = squatsVC
         
-        let squatsButton = button("squats", #selector(opensquatsVC))
-        mainVC.view.addSubview(squatsButton)
-        self.squatsButton = squatsButton
+        let horizontalNavigation = HorizontalNavigation()
+        horizontalNavigation.onOpenPushUpsVC = { if self.viewControllers.count < 2 {self.pushViewController(pushUpsVC, animated: true)}}
+        horizontalNavigation.onOpenSquatsVC = { if self.viewControllers.count < 2 {self.pushViewController(squatsVC, animated: true)}}
+        mainVC.view.addSubview(horizontalNavigation)
+        self.horizontalNavigation = horizontalNavigation
         
         let settingsButton = button("settings", #selector(openSettings))
         mainVC.view.addSubview(settingsButton)
@@ -51,15 +58,10 @@ import CoreData
         
         
         //MARK: - Layout
-        pushUpsButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
-        pushUpsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        pushUpsButton.leftAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.leftAnchor, constant: 30).isActive = true
-        pushUpsButton.bottomAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
-        
-        squatsButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
-        squatsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
-        squatsButton.rightAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.rightAnchor, constant: -30).isActive = true
-        squatsButton.bottomAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        horizontalNavigation.leftAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.leftAnchor).isActive = true
+        horizontalNavigation.bottomAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.bottomAnchor).isActive = true
+        horizontalNavigation.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        horizontalNavigation.rightAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.rightAnchor).isActive = true
         
         settingsButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         settingsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
@@ -113,22 +115,6 @@ import CoreData
         button.imageView?.contentMode = .scaleAspectFit
         
         return button
-    }
-    
-    @objc func openPushUpsVC() {
-        guard let pushUpsVC = pushUpsVC else { return }
-        
-        if viewControllers.count < 2 {
-            pushViewController(pushUpsVC, animated: true)
-        }
-    }
-    
-    @objc func opensquatsVC() {
-        guard let squatsVC = squatsVC else { return }
-        
-        if viewControllers.count < 2 {
-            pushViewController(squatsVC, animated: true)
-        }
     }
     
     @objc func openSettings() {
