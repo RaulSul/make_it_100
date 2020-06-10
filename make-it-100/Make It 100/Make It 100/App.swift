@@ -23,6 +23,7 @@ import CoreData
     // Buttons:
     var horizontalNavigation: HorizontalNavigation?
     var pushUpsButton: UIButton?
+    var stretchingButton: UIButton?
     var squatsButton: UIButton?
     var settingsButton: UIButton?
     var profileButton: UIButton?
@@ -113,7 +114,7 @@ import CoreData
         }
     }
     
-    //MARK: - Miscellanious
+    //MARK: - Button Functions
     
     func button(_ imageName: String, _ selector: Selector) -> UIButton {
         let button = UIButton()

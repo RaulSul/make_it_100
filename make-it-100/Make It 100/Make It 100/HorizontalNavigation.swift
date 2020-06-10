@@ -13,8 +13,9 @@ class HorizontalNavigation: UIView {
     //MARK: - Button Variables
     var pushUpsButton: UIButton?
     var squatsButton: UIButton?
-    var settingsButton: UIButton?
+    var stretchingButton: UIButton?
     var onOpenPushUpsVC: (() -> Void)?
+    var onOpenStretchingVC: (() -> Void)?
     var onOpenSquatsVC: (() -> Void)?
 
     init() {
@@ -27,6 +28,10 @@ class HorizontalNavigation: UIView {
         addSubview(pushUpsButton)
         self.pushUpsButton = pushUpsButton
         
+        let stretchingButton = button("stretching", #selector(openStretchingVC))
+        addSubview(stretchingButton)
+        self.stretchingButton = stretchingButton
+        
         let squatsButton = button("squats", #selector(opensquatsVC))
         addSubview(squatsButton)
         self.squatsButton = squatsButton
@@ -36,6 +41,11 @@ class HorizontalNavigation: UIView {
         pushUpsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         pushUpsButton.leftAnchor.constraint(equalTo: safeAreaLayoutGuide.leftAnchor, constant: 30).isActive = true
         pushUpsButton.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        
+        stretchingButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        stretchingButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        stretchingButton.centerYAnchor.constraint(equalTo: centerYAnchor).isActive = true
+        stretchingButton.centerXAnchor.constraint(equalTo: centerXAnchor).isActive = true
         
         squatsButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
         squatsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
@@ -63,6 +73,10 @@ class HorizontalNavigation: UIView {
     
     @objc func opensquatsVC() {
         onOpenSquatsVC?()
+    }
+    
+    @objc func openStretchingVC() {
+        onOpenStretchingVC?()
     }
         
     
