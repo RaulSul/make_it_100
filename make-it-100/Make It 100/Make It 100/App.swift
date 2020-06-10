@@ -25,6 +25,7 @@ import CoreData
     var pushUpsButton: UIButton?
     var squatsButton: UIButton?
     var settingsButton: UIButton?
+    var profileButton: UIButton?
     
     //MARK: - View
     override func viewDidLoad() {
@@ -56,6 +57,10 @@ import CoreData
         mainVC.view.addSubview(settingsButton)
         self.settingsButton = settingsButton
         
+        let profileButton = button("profile", #selector(openProfile))
+        mainVC.view.addSubview(profileButton)
+        self.profileButton = profileButton
+        
         
         //MARK: - Layout
         horizontalNavigation.leftAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.leftAnchor).isActive = true
@@ -67,6 +72,11 @@ import CoreData
         settingsButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         settingsButton.rightAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.rightAnchor, constant: -30).isActive = true
         settingsButton.topAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.topAnchor, constant: 30).isActive = true
+        
+        profileButton.widthAnchor.constraint(equalToConstant: 30).isActive = true
+        profileButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
+        profileButton.leftAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.leftAnchor, constant: 30).isActive = true
+        profileButton.topAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.topAnchor, constant: 30).isActive = true
     }
 
     //MARK: - Application Functions
@@ -118,11 +128,18 @@ import CoreData
     }
     
     @objc func openSettings() {
-        guard let settings = settings else { return }
+        print(">> Attempted to open settings")
+        
+        guard let settings = settings else { return }
         
         if viewControllers.count < 2 {
             pushViewController(settings, animated: true)
+            print(">> Successfully opened settings")
         }
+    }
+    
+    @objc func openProfile() {
+        print(">> Attempted to open profile")
     }
 }
 
