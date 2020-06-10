@@ -20,6 +20,9 @@ import CoreData
     var pushUpsVC: PushUpsVC?
     var squatsVC: SquatsVC?
     
+    //Views:
+    var profile: Profile?
+    
     // Buttons:
     var horizontalNavigation: HorizontalNavigation?
     var pushUpsButton: UIButton?
@@ -51,8 +54,13 @@ import CoreData
         let horizontalNavigation = HorizontalNavigation()
         horizontalNavigation.onOpenPushUpsVC = { if self.viewControllers.count < 2 {self.pushViewController(pushUpsVC, animated: true)}}
         horizontalNavigation.onOpenSquatsVC = { if self.viewControllers.count < 2 {self.pushViewController(squatsVC, animated: true)}}
+        horizontalNavigation.onOpenStretchingVC = { print(">> Attempting to open Stretching VC") }
         mainVC.view.addSubview(horizontalNavigation)
         self.horizontalNavigation = horizontalNavigation
+        
+        let profile = Profile()
+        mainVC.view.insertSubview(profile, belowSubview: horizontalNavigation)
+        self.profile = profile
         
         let settingsButton = button("settings", #selector(openSettings))
         mainVC.view.addSubview(settingsButton)
@@ -78,6 +86,9 @@ import CoreData
         profileButton.heightAnchor.constraint(equalToConstant: 30).isActive = true
         profileButton.leftAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.leftAnchor, constant: 30).isActive = true
         profileButton.topAnchor.constraint(equalTo: mainVC.view.safeAreaLayoutGuide.topAnchor, constant: 30).isActive = true
+        
+        profile.widthAnchor.constraint(equalTo: mainVC.view.widthAnchor).isActive = true
+        profile.heightAnchor.constraint(equalTo: mainVC.view.heightAnchor).isActive = true
     }
 
     //MARK: - Application Functions

@@ -19,6 +19,7 @@
 		E5B12A6E2469723C00BB780B /* HorizontalNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B12A6D2469723C00BB780B /* HorizontalNavigation.swift */; };
 		E5B12A702469A01E00BB780B /* SquatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B12A6F2469A01E00BB780B /* SquatsVC.swift */; };
 		E5B12A722469A78300BB780B /* PushUpsProgramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B12A712469A78300BB780B /* PushUpsProgramModel.swift */; };
+		E5D9251724911AB900E2899C /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D9251624911AB900E2899C /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		E5B12A6D2469723C00BB780B /* HorizontalNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalNavigation.swift; sourceTree = "<group>"; };
 		E5B12A6F2469A01E00BB780B /* SquatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquatsVC.swift; sourceTree = "<group>"; };
 		E5B12A712469A78300BB780B /* PushUpsProgramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushUpsProgramModel.swift; sourceTree = "<group>"; };
+		E5D9251624911AB900E2899C /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 				E55B9F4C246149B20082DA95 /* Extensions.swift */,
 				E55B9F2B246148F70082DA95 /* PushUpsVC.swift */,
 				E5B12A6F2469A01E00BB780B /* SquatsVC.swift */,
+				E5D9251624911AB900E2899C /* Profile.swift */,
 				E5B12A712469A78300BB780B /* PushUpsProgramModel.swift */,
 				E5B12A6D2469723C00BB780B /* HorizontalNavigation.swift */,
 				E55B9F2D246148F70082DA95 /* Main.storyboard */,
@@ -222,6 +225,7 @@
 				E5B12A6E2469723C00BB780B /* HorizontalNavigation.swift in Sources */,
 				E5B12A722469A78300BB780B /* PushUpsProgramModel.swift in Sources */,
 				E55B9F32246148F70082DA95 /* Make_It_100.xcdatamodeld in Sources */,
+				E5D9251724911AB900E2899C /* Profile.swift in Sources */,
 				E55B9F4D246149B20082DA95 /* Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
